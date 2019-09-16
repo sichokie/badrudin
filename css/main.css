@@ -56,12 +56,12 @@
   margin:0 auto;
   width: 4em;
   height: 4em;
-  background: #2a2a2a;
-  background: -moz-linear-gradient(left, #333333 10%, rgba(51, 51, 51, 0) 30%);
-  background: -webkit-linear-gradient(left, #333333 10%, rgba(51, 51, 51, 0) 30%);
-  background: -o-linear-gradient(left, #333333 10%, rgba(51, 51, 51, 0) 30%);
-  background: -ms-linear-gradient(left, #333333 10%, rgba(51, 51, 51, 0) 30%);
-  background: linear-gradient(to right, #333333 10%, rgba(51, 51, 51, 0) 30%);
+  background: #00D1B2;
+  background: -moz-linear-gradient(left, #00D1B2 10%, rgba(51, 51, 51, 0) 30%);
+  background: -webkit-linear-gradient(left, #00D1B2 10%, rgba(51, 51, 51, 0) 30%);
+  background: -o-linear-gradient(left, #00D1B2 10%, rgba(51, 51, 51, 0) 30%);
+  background: -ms-linear-gradient(left, #00D1B2 10%, rgba(51, 51, 51, 0) 30%);
+  background: linear-gradient(to right, #00D1B2 10%, rgba(51, 51, 51, 0) 30%);
   position: relative;
   -webkit-animation: rotation 1s infinite linear;
   animation: rotation 1s infinite linear;
@@ -74,7 +74,7 @@
 .spinner:before {
   width: 50%;
   height: 50%;
-  background: #2a2a2a;
+  background: #00D1B2;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,14 +131,14 @@
 }
 
 .img-profile .name-profile{
-	background:#3f3f3f;
+	background:#455a64;
 	padding:5px 0;
 	margin-bottom:1px;
 }
 
 
 .img-profile .name-profile h5{
-	color:#e8e8e8;
+	color:#fff;
 	font-weight: 700;
 	font-size:13px;
 	display:block;
@@ -389,7 +389,7 @@ img.signature{
 }
 
 .listing-inner:before {
- 	background: #2a2a2a;
+ 	background: #455a64;
     top: -20px;
     content: " ";
     height: 12px;
@@ -845,14 +845,6 @@ ul.hb-list li h6 {
 
 .services .block-service  .col-sm-6:nth-child(2n+1) {
     border-right: 1px solid #f5f5f5;
-}
-
-
-.services .block-service  .col-sm-6:nth-child(-n+3) {
-    border-bottom: 1px solid #f5f5f5;
-}
-.services .block-service  .col-sm-6:nth-child(3n+1) {
-    border-bottom: 1px solid #f5f5f5;
 }
 
 .services .block-service .col-sm-6 {
@@ -1504,7 +1496,7 @@ ul.hb-list li h6 {
 
 
 .footer .copyright{
- 	background: #2a2a2a;
+ 	background: #455a64;
     float: left;
     margin-left: 41px;
     min-width: 163px;
