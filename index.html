@@ -1451,6 +1451,11 @@
 		
 </div>
 <!--End wrapper-->
+
+<!-- Back-To-Top Button -->
+<div class='to-top'>
+  <a class='back-to-top icon-up-open-mini' href='#'></a>
+</div>
 	
 <!--Javascript-->	
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
@@ -1461,6 +1466,34 @@
 <script src="js/placeholders.min.js" type="text/javascript"></script>
 <script src="js/script.js" type="text/javascript"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+<script type="text/javascript">
+	$(function () {
+  
+  var offset = 300,
+      duration = 500,
+      top_section = $('.to-top'),
+      toTopButton = $('a.back-to-top');
+  // showing and hiding button according to scroll amount (in pixels)
+  $(window).scroll(function () {
+    if( $(this).scrollTop() > offset ) {
+      $(top_section).fadeIn(duration);
+    } else{
+      $(top_section).fadeOut(duration);
+
+    }});
+  
+  // activate smooth scroll to top when clicking on the button
+  
+  $(toTopButton).click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, 700);
+  });
+  
+});
+</script>
 
 <script>
 
